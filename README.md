@@ -11,7 +11,7 @@ Whether you're a beginner looking to build a strong foundation or someone brushi
 During my own learning journey, I often found scattered resources and inconsistent problem sets. So I decided to compile a clean, topic-wise roadmap with problems that build understanding step-by-step. Each solution in this repo is written with clarity and includes comments wherever helpful.
 
 The goal:  
-**To learn better, together — and give back to the dev community.**
+**To learn better, together and give back to the dev community.**
 
 ---
 
