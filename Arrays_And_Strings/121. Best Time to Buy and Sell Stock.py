@@ -2,7 +2,6 @@
 #  Approach: Track the minimum price so far and update max profit on the go
 #  Time Complexity: O(n)
 
-from typing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
@@ -13,7 +12,7 @@ class Solution:
         maxProfit = 0
 
         # Go through each price one by one
-        for _, price in enumerate(prices):
+        for price in prices:
             # If this price is lower than anything we've seen, update minPrice
             if price < minPrice:
                 minPrice = price
