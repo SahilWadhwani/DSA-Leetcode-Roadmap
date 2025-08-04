@@ -1,0 +1,23 @@
+#  Problem Link: https://leetcode.com/problems/reverse-linked-list/
+#  Approach: Iteratively reverse pointers as we traverse the list
+#  Time Complexity: O(n), Space: O(1)
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+
+
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        prev = None      # This will become the new head
+        curr = head      # Start from the current head
+
+        while curr:
+            next_node = curr.next   # Temporarily store next node
+            curr.next = prev        # Reverse the pointer
+            prev = curr             # Move prev forward
+            curr = next_node        # Move curr forward
+
+        return prev  # prev will be pointing to the new head at the end
