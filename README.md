@@ -21,7 +21,7 @@ The goal:
 -  Hashing & HashMaps  
 -  Recursion & Backtracking  
 -  Linked Lists  
--  Coming up: Trees, Graphs, Dynamic Programming, Tries, and more...
+-  Coming up: Graphs, Dynamic Programming, Tries, and more...
 
 ---
 
