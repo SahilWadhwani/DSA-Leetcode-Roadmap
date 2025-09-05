@@ -7,8 +7,8 @@
 #   - Track the number of nodes at the current level.
 #   - For each level, collect values and enqueue left/right children.
 #
-# 🧠 Time Complexity: O(n) — visit every node once
-# 🧠 Space Complexity: O(w) — width of the binary tree (max queue size)
+#  Time Complexity: O(n) — visit every node once
+#  Space Complexity: O(w) — width of the binary tree (max queue size)
 # =============================================================================
 
 
