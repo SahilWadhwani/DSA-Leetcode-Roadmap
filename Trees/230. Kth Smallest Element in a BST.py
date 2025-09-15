@@ -38,7 +38,7 @@ class Solution:
             self.count += 1
             if self.count == k:
                 self.result = node.val
-                return  # Early return — no need to continue traversal
+                return  # Early return, no need to continue traversal
 
             inorder(node.right)
 
