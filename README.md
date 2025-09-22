@@ -20,8 +20,10 @@ The goal:
 -  Arrays & Strings  
 -  Hashing & HashMaps  
 -  Recursion & Backtracking  
--  Linked Lists  
--  Coming up: Graphs, Dynamic Programming, Tries, and more...
+-  Linked Lists
+-  Trees
+-  Heaps and Priority Queues 
+-  Coming up: Stacks, Graphs, Dynamic Programming...
 
 ---
 
